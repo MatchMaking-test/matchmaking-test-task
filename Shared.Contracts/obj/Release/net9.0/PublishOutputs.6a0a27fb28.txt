@@ -1,0 +1,3 @@
+/Users/romankobzar/Desktop/MatchMaking/publish/Shared.Contracts.dll
+/Users/romankobzar/Desktop/MatchMaking/publish/Shared.Contracts.deps.json
+/Users/romankobzar/Desktop/MatchMaking/publish/Shared.Contracts.pdb
