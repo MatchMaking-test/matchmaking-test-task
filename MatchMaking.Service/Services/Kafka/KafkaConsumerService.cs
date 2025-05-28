@@ -58,7 +58,7 @@ public class KafkaConsumerService : BackgroundService
                 catch (ConsumeException ex)
                 {
                     _logger.LogError(ex, "Error while consuming Kafka message.");
-                    Thread.Sleep(5000); // ⚠ Затримка перед повтором
+                    Thread.Sleep(5000); // Wait before retrying to consume
                 }
                 catch (OperationCanceledException)
                 {

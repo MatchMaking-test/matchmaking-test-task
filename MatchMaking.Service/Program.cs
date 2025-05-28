@@ -4,9 +4,6 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
-
 // Add services
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -15,7 +12,6 @@ builder.Services.AddControllers()
     });
 
 builder.Services.AddEndpointsApiExplorer();
-
 
 // Custom services
 builder.Services.AddSingleton<KafkaProducerService>();
