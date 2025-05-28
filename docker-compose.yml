@@ -1,5 +1,3 @@
-### ✅ Updated docker-compose.yml fragment with kafka-init delay and proper dependency
-
 version: "3.9"
 
 services:

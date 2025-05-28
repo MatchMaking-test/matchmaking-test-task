@@ -1,5 +1,4 @@
 using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.Logging;
 using System.Text.Json;
 using Shared.Contracts;
 

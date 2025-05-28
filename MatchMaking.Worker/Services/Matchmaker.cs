@@ -1,12 +1,7 @@
 using Confluent.Kafka;
-using Microsoft.Extensions.Hosting;
 using System.Collections.Concurrent;
 using System.Text.Json;
 using Shared.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace MatchMaking.Worker.Services;
 
